@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>produk madame gie</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0px;
+        }
+        main {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        header {
+            background-color: #E0115F;
+            color: aliceblue;
+            text-align: left;
+            padding: 10px;
+            text-align: center;
+        }
+        .navbar ul {
+            list-style-type: none;
+            background-color:#FF1493;
+            padding: 0px;
+            margin: 0px;
+            overflow: hidden;
+        }
+        .navbar a {
+            color: aliceblue;
+            text-decoration: none;
+            padding: 15px;
+            display: block;
+            text-align: center;
+        }
+        .navbar a:hover {
+            background-color: #033E3E;
+        }
+        .navbar li {
+            float: left;
+        }
+        aside {
+            width: 20%;
+            float: left;
+            padding: 10px;
+        }
+        section {
+            width: 40%;
+            float: left;
+            padding: 10px;
+        }
+        article {
+            width: 40%;
+            float: left;
+            padding: 10px;
+        }
+        footer {
+            display: block;
+            clear: both;
+            background-color: #E0115F;
+            text-align: left;
+            padding: 25px;
+        }
+        @Media screen and (max-width:600px){
+            aside, section, article{
+                width: 100%;
+            }
+        }
+        .dropdown {
+            display: inline-block;
+        }
+        .dropdown button {
+            background-color: hsl(0, 0%, 80%);
+            color: aliceblue;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+        .dropdown a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+        }
+        .dropdown .content {
+            display: none;
+            position: absolute;
+            background-color: hsl(0, 0%, 80%);
+            color: grey;
+            min-width: 100px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.735);
+        }
+        .dropdown:hover .content {
+            display: block;
+        }
+        .dropdown a:hover {
+            background-color: black(0, 0%, 90%);
+            color:white;
+        }
+        .container {
+            width: 90%;
+            padding: 20px;
+            margin: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+        }
+        .box {
+            width: 100px;
+            box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+            transition: 1s;
+        }
+        .box img {
+           display: block; 
+           width: 100px;
+           border-radius: 5px;
+        }  
+        .box:hover {
+            transform: scale(1.3);
+            z-index: 2;
+        }    
+        footer {
+            color: aliceblue;
+            font-size: 10px;
+        }  
+        h3 {
+            color: #E0115F;
+        }  
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Madame Gie Indonesia</h2>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="halaman1.html">Home</a></li>
+            <li><a href="halaman2.html">Poduk Baru</a></li>
+            <li class="dropdown">
+                <a href="halaman3.html">Product</a>
+                <div class="content">
+                    <a href="">Madame Gie Sunscreen</a>
+                    <a href="">Madame Gie Night Cream</a>
+                    <a href="">Madame Gie Glowing Facial Wash</a>
+                    <a href="">Madame Gie Cream Acne</a>
+                </div>
+            </li>
+            <li><a href="halaman4.html">Produk Terlaris</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <figure>
+                <div class="container">
+                    <div class="box">
+                        <img src="gambar7.png">
+                    </div> 
+                </div>
+            </figure>
+            <h3>Rp.65.000</h3>
+            <h2>Madame Gie Night Cream</h2>
+            <p>Madame Gie Night Cream, Manfaatnya untuk mencerahkan wajah, melembabkan wajah, menghilangkan jerawat, memedarkan bekas jerawat, mengecilkan pori pori, baik digunakan di malam hari sebelum tidur</p>
+        
+            <figure>
+                <div class="container">
+                    <div class="box">
+                        <img src="gambar2.png">
+                    </div>     
+                </div>
+            </figure>
+            <h3>Rp.65.000</h3>
+            <h2>Madame Gie Day Cream</h2>
+            <p>Madame Gie Day Cream, Manfaatnya untuk mencerahkan wajah, melembabkan wajah, membuat wajah lebih glowing menghilangkan jerawat, memedarkan bekas jerawat, mengecilkan pori pori, baik digunakan di siang hari sebelum beraktivitas di luar ruangan</p>
+
+            <figure>
+                <div class="container">
+                    <div class="box">
+                        <img src="gambar1.png">
+                    </div> 
+                </div>
+            </figure>
+            <h3>Rp.85.000</h3>
+            <h2>Madame Gie Body Lotion</h2>
+            <p>Madame Gie Body Lotion, Manfaatnya untuk mencerahkan kulit, melembabkan kulit, menutrisi kulit, membuat tubuh harum seharian baik digunakan di pagi, siang, dan malam hari setelah mandi dan sebelum tidur</p>
+
+            <figure>
+                <div class="container">
+                    <div class="box">
+                        <img src="gambar3.png">
+                    </div>     
+                </div>
+            </figure>
+            <h3>Rp.45.000</h3>
+            <h2>Madame Gie Acne Cream</h2>
+            <p>Madame Gie Acne Cream, Manfaatnya  mengurangi minyak berlebih, mengangkat komedo bberlebih, menghilangkan jerawat, memedarkan bekas jerawat, mengecilkan pori pori, baik digunakan di malam hari sebelum tidur dan di pagi hari sebelum beraktivitas</p>
+
+            <figure>
+                <div class="container">
+                    <div class="box">
+                        <img src="gambar4.png">
+                    </div>     
+                </div>
+            </figure>
+            <h3>Rp.35.000</h3>
+            <h2>Madame Gie Glowing Facial Wash </h2>
+            <p>Madame Gie Clowing Facial Wash, Manfaatnya untuk mencerahkan wajah, melembabkan wajah, membuat kulit tanpak lebih muda, memedarkan bekas jerawat, mengecilkan pori pori, mengurangi minyak berlebih baik digunakan 3 kali 1 hari saat membersihkan wajah</p>
+
+            <figure>
+                <div class="container">
+                    <div class="box">
+                        <img src="gambar5.png">
+                    </div>     
+                </div>
+            </figure>
+            <h3>Rp.35.000</h3>
+            <h2>Madame Gie Sunscreen</h2>
+            <p>Madame Gie Sunscreen, Manfaatnya untuk mencerahkan wajah, melembabkan wajah, melindungi dari sinar UV dan matahari, membuat wajah tampak lebih Glowing baik digunakan di pagi hari sebelum beraktivitas di luar ruangan dan siang hari sebelum beraktivitas di luar ruangan</p>
+
+            <figure>
+                <div class="container">
+                    <div class="box">
+                        <img src="gambar6.png">
+                    </div>     
+                </div>
+            </figure>
+            <h3>Rp.55.000</h3>
+            <h2>Madame Gie Body Wash</h2>
+            <p>Madame Gie Body Wash, Manfaatnya untuk mencerahkan kulit, melembabkan kullit,membuat tubuh terasa segar seharian dan wangi baik digunakan di pagi,siang, sore, malam saat ingin mandi</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Copyright <b>Zendia Amelia</b>. All rights reserved</p>
+        <p>Designed by BootstrapMade</p>
+    </footer>
+</body>
+</html>
