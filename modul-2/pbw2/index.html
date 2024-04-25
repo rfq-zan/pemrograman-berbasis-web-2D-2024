@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Web Page</title>
+<style>
+    /* CSS untuk styling */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    nav {
+        background-color: #444;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+    .container {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .image-container {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .image-container img {
+        max-width: 100%;
+        height: auto;
+    }
+    .dropdown{
+        display: inline-block;
+    }
+
+    .dropdown button {
+        background-color: hsl(0, 0%, 80%);
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+    }
+    .dropdown a{
+        display: block;
+        color: black;
+        text-decoration: none;
+        padding: 10px 15px;
+    }
+    .dropdown .content{
+        display: none;
+        position: absolute;
+        background-color: hsl(0, 0%, 95%);
+        min-width: 100px;
+        box-shadow: 2px 2px 5px hsl(0, 0%, 0%, 0.8);
+    }
+    .dropdown:hover .content{
+        display: block ;
+      
+    }
+    .dropdown:hover button{
+        background-color: hsl(0, 0%, 70%);
+    }
+    .dropdown a:hover{
+        background-color: hsl(0, 0%, 90%);
+    }
+    .footer {
+  min-height: 15vh;
+  display: flex;
+  align-items: center;
+    }
+    .footer > p1 {
+  color: rgb(17, 17, 18);
+  font-size: x-large;
+  font-family: normal;
+}
+.footer {
+  padding: 3em 0 2em 0;
+}
+
+footer > .inner {
+  display: flex;
+  font-family: fantasy;
+}
+
+#footer > .inner section:nth-child(1) {
+  width: calc(66% - 2.5em);
+  margin-right: 2.5em;
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <h1>CV. SAHABAT JAYA</h1>
+    </header>
+    <nav>
+        <a href="#">Beranda</a>
+        <a href="#">Proyek</a>
+        <div class="dropdown">
+            <button>Layanan Kami</button>
+            <div class="content">
+                <a href="#">Jual Beli Tanah</a>
+                <a href="#">Jual Beli Alat Berat</a>
+                <a href="#">Sewa Alat Berat</a>
+            </div>
+        </div>
+            <div class="dropdown">
+                <button>Hubungi Kami</button>
+                <div class="content" >
+                    <a href="#">Telp</a>
+                    <a href="#">Email</a>
+                    <a href="#">Sosial Media</a>
+                    <a href="#">Maps</a>
+                </div>
+                
+                 
+    </nav>
+    <div class="container">
+        <div class="image-container">
+            <img src="doser.jpg" alt="Sample Image">
+            <section class="footer">
+                <main>
+                    <p style="background-color: rgb(255, 238, 0);"><br>
+                        penyewaan alat berat menjadi lebih populer karena keserbagunaan penyewaan dan 
+                         pengurangan biaya operasional. Harga sewa alat berat tidak hanya secara signifikan mengurangi biaya overhead,
+                          tetapi juga lebih mudah manajemen dalam jangka pendek.</p> 
+                </main>
+                    <p1 style="background-color: rgb(255, 187, 0);"><br>Rental Alat Berat Yang Sudah Dipercaya Sejak Tahun 2011
+                        Dijamin Semua Alat Berat Kami Berfungsi Dengan Baik Meskipun Harga Sewa ALat Berat Yang Ditawarkan Lebih Murah   </p1>
+               
+                    <p style="background-color:rgb(255, 238, 0);"><br>Semua alat berat yang kami sewakan kepada Anda DIJAMIN dalam kondisi prima
+                         dengan maintenance rutin, sehingga proyek Anda bisa berjalan lancar. 
+                         Peralatan kami dirawat dan diperiksa secara ketat oleh teknisi pemeliharaan terbaik.</p></section>
+                <footer id="footer">
+                <div class="inner">
+                <section>
+</body>
+</html>
