@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica;
+}
+
+.formcontain{
+    display: flex;
+    align-items: center;
+}
+
+form{
+
+}
+
+button{
+    margin-left: 10px;
+}
+.headline{
+    background-color: aliceblue;
+}
+
+.heads{
+    text-align: center;
+    padding: 100px;
+}
+
+.floatcontain{
+    padding: 20px;
+}
+
+.floats{
+width: 25%;
+float: left;
+padding: 20px;
+}
+
+footer{
+    background-color: #0A2472;
+    color: white;
+    position: fixed;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+}
